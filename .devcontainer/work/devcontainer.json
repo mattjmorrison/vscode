@@ -10,12 +10,15 @@
                     "editor.defaultFormatter": "ms-python.black-formatter",
                     "editor.formatOnSave": true
                 },
-                "python.experiments.optInto": ["pythonTestAdapter"]
+                "python.experiments.optInto": ["pythonTestAdapter"],
+                "python.radon.enable": true,
+                "python.radon.executable": "/usr/local/bin/radon"
             },
             "extensions": [
                 "ms-python.black-formatter",
                 "ms-python.python",
-                "ms-python.vscode-pylance"
+                "ms-python.vscode-pylance",
+                "christiandein.python-radon"
             ]
         }
   }
