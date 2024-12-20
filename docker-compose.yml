@@ -1,0 +1,8 @@
+services:
+
+  work:
+    build: .
+    volumes:
+      - ~/.ssh:/root/ssh
+      - .:/work
+    working_dir: /work
